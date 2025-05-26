@@ -91,6 +91,7 @@
       
       .profile-section {
         min-height: 60vh;
+       
       }
       .profile-img-outer {
         width: 120px;
@@ -131,7 +132,7 @@
         margin-left: 20px;
       }
 }
-    
+
     /* Paragraph */
 .para{
   text-indent:2rem;

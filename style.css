@@ -94,12 +94,12 @@
        
       }
       .profile-img-outer {
-        width: 120px;
-        height: 120px;
+        width: 220px;
+        height: 220px;
       }
       .profile-img-inner {
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
       }
       .profile-name {
         font-size: 1.3rem;
@@ -143,8 +143,9 @@
 
     /* paragraph */
 .headings{
-  border-bottom:3px solid rgb(175, 175, 175);
+  border-bottom:3px solid deepskyblue;
 }
+
 /* .project-card:hover {
   transform: translateY(-4px) scale(1.02);
   box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.15);
@@ -195,3 +196,29 @@
   transition: 0.9s;
   background-color: var(--accent-color);
 }
+.github:hover{
+  color: black;
+}
+.azure:hover{
+  color:#0dcaf0;
+}
+.insta:hover{
+  color: #ff7300;
+}
+.in:hover{
+  color:#0A66C2;
+}
+.fb:hover{
+  color:#1877F2;
+}
+.contact-card {
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .contact-card:hover {
+      transform: translateY(-5px) scale(1.03);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+    }
+    .contact-icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }

@@ -222,3 +222,28 @@
       font-size: 2.5rem;
       margin-bottom: 0.5rem;
     }
+    .footer{
+      background-color: rgb(209, 225, 235) !important;
+    }
+    .footer .icon{
+      font-size: 1.3rem;
+    }
+   .glow-text {
+  color: #ffffff; /* optional: use if you want white glowing text */
+  text-shadow: 0 0 2px gray, 0 0 5px gray, 0 0 15px rgb(41, 153, 185);
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.glow-text:hover {
+  text-shadow: 0 0 5px gray, 0 0 10px gray, 0 0 20px rgb(41, 153, 184);
+}
+
+.glow-heart {
+  text-shadow: 0 0 1px #dc3545, 0 0 5px #dc3545, 0 0 10px #dc3545;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+.glow-heart:hover {
+  text-shadow: 0 0 5px #dc3545, 0 0 10px #dc3545, 0 0 15px #dc3545;
+}
+

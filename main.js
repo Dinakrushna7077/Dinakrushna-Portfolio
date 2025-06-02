@@ -52,3 +52,5 @@ menubtn.addEventListener("click", () => {
         dropdown.classList.add("d-flex", "dropdown");
     }
 })
+
+document.getElementById('year').textContent = new Date().getFullYear();

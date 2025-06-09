@@ -228,9 +228,9 @@
     .footer .icon{
       font-size: 1.3rem;
     }
-   .glow-text {
-  color: #ffffff; /* optional: use if you want white glowing text */
-  text-shadow: 0 0 2px gray, 0 0 5px gray, 0 0 15px rgb(41, 153, 185);
+.glow-text {
+  color: #000000; /* optional: use if you want white glowing text */
+  text-shadow:0 0 2px rgb(143, 142, 142), 0 0 5px rgb(154, 150, 150), 0 0 15px rgb(214 216 216);
   transition: text-shadow 0.3s ease-in-out;
 }
 

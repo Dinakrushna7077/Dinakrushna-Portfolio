@@ -54,17 +54,14 @@ menubtn.addEventListener("click", () => {
 })
 
 // Hide loader and show main content after page load
+
   window.addEventListener("load", function () {
     const loader = document.querySelector(".loader");
     const content = document.getElementById("main-content");
 
-    loader.style.transition = "opacity 0.5s ease";
-    loader.style.opacity = 0;
-
-    setTimeout(function () {
-      loader.style.display = "none";
-      content.style.display = "block";
-    }, 500); 
+    // Instantly hide loader and show content
+    loader.style.display = "none";
+    content.style.display = "block";
   });
 
 

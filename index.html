@@ -47,7 +47,13 @@
   <div class="py-2 px-2">
     <!-- Profile -->
     <!-- Profile -->
-    <section class="col-12 d-lg-flex mb-2 container">
+     <div class="loader">
+  <div class="inner one"></div>
+  <div class="inner two"></div>
+  <div class="inner three"></div>
+</div>
+
+    <section class="col-12 d-lg-flex mb-2 container" id="main-content">
 
       <!-- Profile Card -->
       <div
@@ -527,6 +533,9 @@
   <script src="main.js"></script>
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
+    document.addEventListener("contextmenu", function (e) {
+    e.preventDefault();
+  });
   </script>
 </body>
 

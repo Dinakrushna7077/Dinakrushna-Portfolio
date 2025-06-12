@@ -53,4 +53,19 @@ menubtn.addEventListener("click", () => {
     }
 })
 
-document.getElementById('year').textContent = new Date().getFullYear();
+// Hide loader and show main content after page load
+  window.addEventListener("load", function () {
+    const loader = document.querySelector(".loader");
+    const content = document.getElementById("main-content");
+
+    loader.style.transition = "opacity 0.5s ease";
+    loader.style.opacity = 0;
+
+    setTimeout(function () {
+      loader.style.display = "none";
+      content.style.display = "block";
+    }, 500); 
+  });
+
+
+

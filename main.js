@@ -58,12 +58,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
   window.addEventListener("load", function () {
   const loader = document.querySelector(".loader");
-  const nav = document.querySelector(".navbar");
   const content = document.getElementById("main-content");
 
   if (loader) loader.style.display = "none";
-  if (nav) nav.style.display = "block";
   if (content) content.style.display = "block";
+  AOS.refresh();
 });
 
 

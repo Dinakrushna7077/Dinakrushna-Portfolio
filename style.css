@@ -4,9 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-.navbar{
-  display: none;
-}
+
 .navbar-custom {
       background-color: deepskyblue;
     }

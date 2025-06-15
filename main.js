@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
-      AOS.init();
+      
 
       // Animate progress bars on scroll into view
       const progressBars = document.querySelectorAll(".progress-bar");
@@ -62,8 +62,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (loader) loader.style.display = "none";
   if (content) content.style.display = "block";
-  AOS.refresh();
-});
+   AOS.init();
+    });
 
 
 

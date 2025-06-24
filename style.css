@@ -19,6 +19,183 @@
 .bg{
   background-color: #ffffff;
 }
+
+.element{
+  background-color: #b8d0fd;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 4px;
+  scale:none;
+  transition: 3s ease;
+}
+.non-skill:hover{
+  transform: scale(1.04);
+  transition: scale 0s;
+}
+.mid{
+  position: relative;
+  overflow: hidden;
+  right: 60px;
+  left: 50px;
+
+}
+.top{
+  background: linear-gradient(to top, rgba(184, 208, 253, 0.5), rgba(184, 208, 253, 0));
+}
+.right{
+  background: linear-gradient(to right, rgba(184, 208, 253,0.6), rgba(184, 208, 253, 0));
+}
+.left{
+  background: linear-gradient(to left, rgba(184, 208, 253, 0.35), rgba(184, 208, 253, 0));
+}
+.bottom{
+  background: linear-gradient(to bottom, rgba(184, 208, 253, 0.5), rgba(184, 208, 253, 0));
+}
+.r-b-c{
+   background: linear-gradient(to bottom right, rgba(184, 208, 253, 0.18), rgba(184, 208, 253, 0));
+}
+.l-b-c{
+background: linear-gradient(to bottom left, rgba(184, 208, 253, 0.18), rgba(184, 208, 253, 0));
+
+}
+.r-t-c{
+background: linear-gradient(to top right, rgba(184, 208, 253, 0.18), rgba(184, 208, 253, 0));
+
+}
+.l-t-c{
+background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 208, 253, 0));
+}
+.l-1,.r-1{
+  opacity: 25%;
+  cursor:default;
+}
+.l-2,.r-2{
+  opacity: 35%;
+  cursor:default;
+}
+.l-3,.r-3{
+  opacity: 65%;
+  cursor:default;
+}
+.skill-icon{
+  height: 50px;
+}
+.skill-element{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+  scale:1;
+}
+.html{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.html:hover{
+  box-shadow: 0 0 20px orangered ;
+  transition: box-shadow 0s;
+}
+.css{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.css:hover{
+  box-shadow: 0 0 20px rgb(0, 110, 201) ;
+  transition: box-shadow 0s;
+}
+.js{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.js:hover {
+      box-shadow: 0 0 20px rgb(255, 213, 0);
+      transition: box-shadow 0s;
+}
+.bootstrap{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.bootstrap:hover{
+  box-shadow: 0 0 20px rgb(102, 0, 255) ;
+  transition: box-shadow 0s;
+}
+.jquery{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.jquery:hover{
+  box-shadow: 0 0 20px rgb(0, 59, 86) ;
+  transition: box-shadow 0s;
+}
+.react{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.react:hover{
+  box-shadow: 0 0 20px rgb(0, 153, 255) ;
+  transition: box-shadow 0s;
+}
+.csharp{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.csharp:hover{
+  box-shadow: 0 0 20px rgb(66, 11, 150) ;
+  transition: box-shadow 0s;
+}
+.java{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.java:hover{
+  box-shadow: 0 0 20px  rgb(0, 47, 140);
+  transition: box-shadow 0s;
+}
+.cpp{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.cpp:hover{
+  box-shadow: 0 0 20px rgb(0, 67, 139) ;
+  transition: box-shadow 0s;
+}
+.github{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.github:hover{
+  box-shadow: 0 0 20px black ;
+  transition: box-shadow 0s;
+}
+.sql{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.sql:hover{
+  box-shadow: 0 0 20px rgb(146, 1, 1) ;
+  transition: box-shadow 0s;
+}
+.mvc,.web{
+  box-shadow: none;
+  transition:box-shadow 3s ease;
+}
+.mvc:hover,.web:hover{
+  box-shadow: 0 0 20px rgb(49, 1, 138) ;
+  transition: box-shadow 0s;
+}
+@media (max-width: 576px) {
+      .element {
+        height: 90px;
+        width: 90px;
+      }
+      .element img {
+        height: 50px;
+      }
+      
+    }
 .profile-section {
       display: flex;
       align-items: center;

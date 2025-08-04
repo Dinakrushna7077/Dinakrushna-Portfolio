@@ -120,6 +120,7 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
   transition: box-shadow 0s;
 }
 .csharp:hover{
+  
   box-shadow: 0 0 20px rgb(66, 11, 150) ;
   transition: box-shadow 0s;
 }

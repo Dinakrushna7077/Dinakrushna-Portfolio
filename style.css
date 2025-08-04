@@ -106,6 +106,11 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
   box-shadow: 0 0 20px rgb(102, 0, 255) ;
   transition: box-shadow 0s;
 }
+.mvc:hover{
+  box-shadow: 0 0 20px rgb(28, 78, 128) ;
+  transition: box-shadow 0s;
+
+}
 .jquery:hover{
   box-shadow: 0 0 20px rgb(0, 59, 86) ;
   transition: box-shadow 0s;
@@ -136,8 +141,8 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
   box-shadow: 0 0 20px rgb(146, 1, 1) ;
   transition: box-shadow 0s;
 }
-.mvc:hover,.web:hover{
-  box-shadow: 0 0 20px rgb(49, 1, 138) ;
+.dotnet:hover{
+  box-shadow: 0 0 20px #512BD4 ;
   transition: box-shadow 0s;
 }
 
@@ -150,9 +155,8 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
       .element img {
         height: 50px;
       }
-      
     }
-    .sm-gap-4 {
+.sm-gap-4 {
     gap: 3rem !important;
 }
 .profile-section {

@@ -146,7 +146,13 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
   box-shadow: 0 0 20px #512BD4 ;
   transition: box-shadow 0s;
 }
-
+.ef:hover{
+  box-shadow: 0 0 20px rgb(28, 78, 128) ;
+  transition: box-shadow 0s;
+}
+.bg-transparent{
+  mix-blend-mode: multiply;
+}
 @media (max-width: 576px) {
       .element {
         height: 90px;
@@ -458,3 +464,45 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
     transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
   }
 }
+
+/* Project overview css */
+.project-card {
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.4s ease, box-shadow 0.4s ease, border 0.4s ease;
+      border: 1px solid transparent;
+      background-color: white;
+    }
+
+    .project-card:hover {
+      border: 2px solid #0d6efd;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+      transform: scale(1.009);
+    }
+
+    /* Image Styling */
+    .project-image {
+      width: 100%;
+      transform: scaleY(0.85); /* same as your original */
+      object-fit: contain;     /* ensures full image is shown */
+      display: block;
+    }
+
+    /* Content Inside Card */
+    
+
+    .project-content h1 {
+      font-size: 1.75rem;
+      font-weight: 700;
+      margin-bottom: 1px;
+    }
+
+    .project-content p {
+      font-size: 1.1rem;
+      color: #555;
+    }
+    .page-no {
+      color: rgb(150, 150, 150);
+      padding-bottom: 2px;
+      border-bottom:1px solid rgb(160, 162, 167);
+    }

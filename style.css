@@ -168,8 +168,8 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
 }
 .profile-section {
       display: flex;
-      align-items: center;
-      justify-content: center;
+      /* align-items: center;
+      justify-content: center; */
       min-height: 30vh;
       flex-wrap: wrap;
       gap: 20px;
@@ -282,9 +282,6 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
 }
 
     /* Paragraph */
-.para{
-  text-indent:2rem;
-}
 .my-bg{
   background-color: rgb(244, 252, 255) !important;
 }
@@ -505,4 +502,10 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
       color: rgb(150, 150, 150);
       padding-bottom: 2px;
       border-bottom:1px solid rgb(160, 162, 167);
+    }
+    .tag ,.name {
+      color: #ffffff; /* Tomato color for tags */
+      font-weight: bolder;
+      text-shadow: 0 0 10px #164ee8, 0 0 20px #3094ff;
+      font-size: 1.5rem;
     }

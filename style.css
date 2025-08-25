@@ -129,8 +129,8 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
   box-shadow: 0 0 20px  rgb(0, 47, 140);
   transition: box-shadow 0s;
 }
-.cpp:hover{
-  box-shadow: 0 0 20px rgb(0, 67, 139) ;
+.git:hover{
+  box-shadow: 0 0 20px rgb(240, 80, 50);
   transition: box-shadow 0s;
 }
 .github:hover{
@@ -139,11 +139,11 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
 }
 
 .sql:hover{
-  box-shadow: 0 0 20px rgb(146, 1, 1) ;
+  box-shadow: 0 0 20px #A91D22 ;
   transition: box-shadow 0s;
 }
 .dotnet:hover{
-  box-shadow: 0 0 20px #512BD4 ;
+  box-shadow: 0 0 20px rgb(81, 43, 212) ;
   transition: box-shadow 0s;
 }
 .ef:hover{

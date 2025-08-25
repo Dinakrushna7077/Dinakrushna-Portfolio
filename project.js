@@ -14,7 +14,7 @@ window.addEventListener("load", function () {
 
   if (loader) loader.style.display = "none";
   if (content) content.style.display = "block";
-   AOS.init();
+  
     });
 
     const CMS = [

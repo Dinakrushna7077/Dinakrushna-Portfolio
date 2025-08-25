@@ -8,6 +8,14 @@ $(document).ready(function() {
     console.error("Invalid project ID");
   }
 });
+window.addEventListener("load", function () {
+  const loader = document.querySelector(".loader");
+  const content = document.getElementById("main-content");
+
+  if (loader) loader.style.display = "none";
+  if (content) content.style.display = "block";
+   AOS.init();
+    });
 
     const CMS = [
       {

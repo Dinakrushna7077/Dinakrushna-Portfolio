@@ -8,7 +8,7 @@ $(document).ready(function() {
     console.error("Invalid project ID");
   }
 });
-window.addEventListener("load", function () {
+window.addEventListener("load",  ()=> {
   const loader = document.querySelector(".loader");
   const content = document.getElementById("main-content");
 

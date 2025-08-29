@@ -158,6 +158,7 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
         height: 90px;
         width: 90px;
         scale:none;
+        transition: 3s ease;
       }
       .element img {
         height: 50px;

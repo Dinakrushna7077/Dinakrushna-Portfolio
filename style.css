@@ -2,11 +2,37 @@
 *{
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box !important;
 }
-
+body{
+  min-height: 100vh;
+  background-image: linear-gradient(#ddecff, transparent);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.my-bg{
+  /* min-height: 40vh; */
+  background-image: linear-gradient(#ddecff, transparent,#ebf3ff);
+	background-repeat: no-repeat;
+	background-size:cover;
+}
+.project-btn{
+  background-color: #3B86D1 !important;
+  color: white !important;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.project-btn:hover {
+  background-color: #2a5ea8 !important;
+}
+.text-primary1{
+  color: #3B86D1 !important;
+}
 .navbar-custom {
-      background-color: deepskyblue;
+      background-color: #3B86D1;
     }
     .navbar-custom .nav-link,
     .navbar-custom .navbar-brand {
@@ -16,9 +42,9 @@
     .navbar-custom .navbar-brand:hover {
       color: #f8f9fa;
     }
-.bg{
+/* .bg{
   background-color: #ffffff;
-}
+} */
 
 .element{
   background-color: #b8d0fd;
@@ -85,9 +111,12 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
 .skill-icon{
   height: 50px;
 }
+.ef .skill-icon{
+  width: 100%;
+}
 .skill-element{
   box-shadow: none;
-  transition:box-shadow 3s ease;
+  /* transition:box-shadow 3s ease; */
   scale:1;
 }
 .html:hover{
@@ -289,7 +318,7 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
 
     /* paragraph */
 .headings{
-  border-bottom:3px solid deepskyblue;
+  border-bottom:3px solid #9eacc3;
 }
 
 /* .project-card:hover {

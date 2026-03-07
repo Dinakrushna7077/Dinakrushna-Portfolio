@@ -5,8 +5,8 @@
   box-sizing: border-box !important;
 }
 body{
-  min-height: 100vh;
-  background-image: linear-gradient(#ddecff, transparent);
+  max-height: 100vh;
+  background-image: linear-gradient(#ddecff, transparent,#ebf3ff);
 	background-repeat: no-repeat;
 	background-size:cover;
 }
@@ -380,10 +380,8 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
 .insta:hover{
   color: #ff7300;
 }
-.in:hover{
-  color:#0A66C2;
-}
-.fb:hover{
+
+.fb:hover,.in:hover,.git-icon:hover{
   color:#1877F2;
 }
 .contact-card {

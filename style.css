@@ -146,7 +146,7 @@ background: linear-gradient(to top left, rgba(184, 208, 253, 0.18), rgba(184, 20
   box-shadow: 0 0 20px rgb(0, 59, 86) ;
   transition: box-shadow 0s;
 }
-.ng:hover{
+.angular:hover{
   box-shadow: 0 0 20px #e41c77 ;
   transition: box-shadow 0s;
 }

@@ -6,15 +6,17 @@
 }
 body{
   max-height: 100vh;
-  background-image: linear-gradient(#ddecff, transparent,#ebf3ff);
-	background-repeat: no-repeat;
-	background-size:cover;
+  /*  */
+  /* background: linear-gradient(#ddecff, transparent,#ebf3ff); */
+	/* background-repeat: no-repeat;
+	background-size:contain; */
+  background-color: #ddecff !important;
 }
 .my-bg{
   /* min-height: 40vh; */
-  background-image: linear-gradient(#ddecff, transparent,#ebf3ff);
+  background: linear-gradient(#ddecff, transparent,#ebf3ff);
 	background-repeat: no-repeat;
-	background-size:cover;
+	background-size:contain;
 }
 .project-btn{
   background-color: #3B86D1 !important;
